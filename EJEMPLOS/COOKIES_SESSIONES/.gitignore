@@ -1,0 +1,22 @@
+# Ignorar archivo de configuración de entorno
+.env
+
+# Ignorar directorio de datos
+/data/
+
+# Ignorar archivos temporales de PHP
+*.php~
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de caché
+*.cache
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
