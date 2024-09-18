@@ -25,11 +25,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <h2>Registrarse</h2>
 <form method="post">
     <div>
-        <label for="name">Nombre:</label>
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
     </div>
     <div>
-        <label for="email">Email:</label>
+        <label for="email">Correo:</label>
         <input type="email" id="email" name="email" required>
     </div>
     <div>
