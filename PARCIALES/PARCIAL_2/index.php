@@ -36,10 +36,6 @@ switch ($action) {
         // Los estudiantes deben implementar esta lógica
         break;
 
-    case 'sort':
-        // Los estudiantes deben implementar esta lógica
-        break;
-
     case 'filter':
         // Los estudiantes deben implementar esta lógica
         break;
