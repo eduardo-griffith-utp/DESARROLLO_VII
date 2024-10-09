@@ -5,6 +5,7 @@ require_once '../config/database.php';
 try {
     $pdo = getDBConnection();
     $stmt = $pdo->query("SELECT libros.*, autores.nombre as autor_nombre FROM libros JOIN autores ON libros.autor_id = autores.id");
+    
     $libros = $stmt->fetchAll();
 } catch (PDOException $e) {
     echo "Error: " . $e->getMessage();
